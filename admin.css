@@ -1,0 +1,115 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+header
+{
+	background-color: green;
+	height:50px;
+	margin-top:50px;
+}
+p
+{
+	padding:10px;
+}
+.data-get
+{	
+	border: 1px solid black;
+	height: 300px;
+	width:	500px;
+	padding-top:50px;
+	margin-left:50px;
+	margin-right:375px;
+	text-align:center;
+}
+.manage
+{
+	border: 1px solid black;
+	height: 300px;
+	width:	250px;
+	padding-top:50px;
+	margin-left:200px;
+	margin-right:auto;
+	text-align:center;
+}
+.manage-button
+{
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size: 15px;
+}
+.data-button
+{
+	width:400px;
+	color:white;
+	background-color:black;
+	border-style:hidden;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size: 15px;
+	margin:auto;
+}
+.data-button:hover
+{
+	color:black;
+	background-color:white;
+	border:1px solid black;
+}
+.navigation
+{
+	float:right;
+	list-style:none;
+	margin-top:20px;
+}
+.navigation li
+{
+	display:inline-block;
+}
+.content
+{
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	padding-top:50px;
+}
+.content div
+{
+	float:none;
+}
+.employee-form
+{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 150px;
+  border: 3px solid #f1f1f1;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: black;
+}
+.navigation li a
+{
+	color:white;
+	text-decoration:none;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size: 15px;
+	
+}
+.navigation li a:hover
+{
+	border: 1px solid white;
+}
+body
+{
+
+}
+.row
+{
+	max-width:1200px;
+	margin:auto;
+}
+
