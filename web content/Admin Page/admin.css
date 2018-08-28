@@ -2,6 +2,7 @@
 {
 	margin:0;
 	padding:0;
+	font-family:"Roboto",sans-serif;
 }
 header
 {
@@ -76,19 +77,42 @@ p
 .content div
 {
 	float:none;
+	border-radius:15px;
 }
-.employee-form
+.forms button
 {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  right: 150px;
-  border: 3px solid #f1f1f1;
+	height:30px;
+	width:70px;
+	border-radius:10px;
+	border:none;
+}
+.cancel-button:hover
+{
+	background-color:red;
+}
+.done-button:hover
+{
+	background-color:green;
+}
+.forms
+{
+	display: none;
+  position:absolute;
+    left: 0;
+    top: 0;
+	align:center;
+	padding-top:300px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255,255,255,0.5);
 }
 .form-container {
-  max-width: 300px;
+  max-width: 500px;
   padding: 10px;
-  background-color: black;
+  margin:auto;
+  background-color: rgba(0,0,0,0.9);
+  border-radius:25px;
+  color:white;
 }
 .navigation li a
 {

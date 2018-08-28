@@ -25,12 +25,20 @@
 <button class="data-button">Calculate Food Quantity</button>
 </div>
 </div>
-<div class="employee-form" id="employeeForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Login</h1>
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-</form>
+<div class="forms" id="form">
+  <div class="form-container">
+    <p>
+	<h1 id="manageHead"></h1>
+	</p>
+	<button class="form-button" id="objectAddButton">Add</button>
+	<button class="form-button" id="objectRemoveButton">Remove</button>
+	<p>
+	<label for="email"><b>Employee Name</b></label>
+    <input type="text" id="formInput" placeholder="Enter Name" name="name" required>
+	</p>
+	<button class="done-button" id="doneForm">Done</button>
+	<button class="cancel-button" id="cancelForm">Cancel</button>
+</div>
 </div>
 </body>
 </html>
